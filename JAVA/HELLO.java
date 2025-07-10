@@ -1,5 +1,6 @@
-public class HELLO {
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
+public class Hello {
+    public static void main(String[] args){
+        int age=10;
+        System.out.println((age>18)?"major":"minor");
     }
 }

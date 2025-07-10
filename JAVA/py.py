@@ -1,1 +1,1 @@
-print("Hello bhaiii")
+print(10<<1)
