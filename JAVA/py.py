@@ -1,10 +1,8 @@
-def valid(ko):
-    
-    for i in range(1,n+1):
-        if (2**i==n):
-            return "Yes"
-n=int(input("Enter the number : "))
-if (valid(n)=="Yes"):
-    print("Yes")
+year=int(input())
+
+if (year%4==0 and year %100 !=0):
+    print("leap")
+elif(year%400==0 and year %100==0):
+    print("leapyear")
 else:
-    print("NO")
+    print("notleap")

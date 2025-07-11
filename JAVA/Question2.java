@@ -1,6 +1,6 @@
 public class Question2 {
     public static void main(String[] args) {
-        int number=350;
+        int number=438;
         int final_number=number%8;
         int Seat_Number=final_number;
         if (Seat_Number==1){
