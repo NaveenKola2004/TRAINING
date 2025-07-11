@@ -15,10 +15,10 @@ public class Question3 {
         else if (Calculat_Day==4){
             System.out.println("THU");
         }
-        else if(Calculat_Day==4){
+        else if(Calculat_Day==5){
             System.out.println("fri");
         }
-        else if(Calculat_Day==5){
+        else if(Calculat_Day==6){
             System.out.println("sat");
         }
         else{
