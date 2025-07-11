@@ -8,26 +8,26 @@ public class Question4 {
         int total=(odd_days_leap+non_leap_year)%7;
         System.out.println(total);
         switch (total) {
-            case 0:
-            System.out.println("mon");
-                break;
             case 1:
-            System.out.println("tue");
-            break;
+            System.out.println("sunday");
+                break;
             case 2:
-            System.out.println("wen");
+            System.out.println("monday");
             break;
             case 3:
-            System.out.println("thus");
+            System.out.println("tuesady");
             break;
             case 4:
-            System.out.println("fri");
+            System.out.println("wensday");
             break;
             case 5:
-            System.out.println("sat");
+            System.out.println("thuesday");
             break;
             case 6:
-            System.out.println("sun");
+            System.out.println("friday");
+            break;
+            case 0:
+            System.out.println("saterday");
         }
         }
 }
