@@ -1,6 +1,6 @@
 public class Question3 {
     public static void main(String[] args) {
-        int Day=7;
+        int Day=13;
         int Calculat_Day=Day%7;
 
         if (Calculat_Day==1){
