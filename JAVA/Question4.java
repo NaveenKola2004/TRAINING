@@ -15,7 +15,7 @@ public class Question4 {
             System.out.println("monday");
             break;
             case 3:
-            System.out.println("tuesady");
+            System.out.println("tuesday");
             break;
             case 4:
             System.out.println("wensday");
