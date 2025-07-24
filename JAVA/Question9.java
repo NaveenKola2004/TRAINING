@@ -1,14 +1,14 @@
 public class Question9 {
 
     public static void main(String[] args) {
-        int num=128;
-        int start=1;
+        int num=5;
+        int start=5;
         int binay=1;
         while(binay<=num){
             binay=binay*2;
         }
         binay=binay/2;
-        int ans=(2*(num-binay)+start)%num;
-        System.out.println(ans);
+        int ans=((2*(num-binay)+start))%num;
+        System.out.println((ans==0)?num:ans);
     }
 }
