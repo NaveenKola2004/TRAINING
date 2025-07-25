@@ -24,4 +24,35 @@
 //         // }
 //     }
 //     }
+// public class Question10 {
 
+//     public static void main(String[] args) {
+//         int i;
+//         System.out.println(i);
+//     }
+// }
+
+
+
+import java.util.Scanner;
+
+public class OddNumbersOnly {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        int n = sc.nextInt();           // number of elements
+        int[] a = new int[n];
+
+        // Input the array
+        for (int i = 0; i < n; i++) {
+            a[i] = sc.nextInt();
+        }
+
+        // Print only the odd numbers
+        for (int i = 0; i < n; i++) {
+            if (a[i] % 2 != 0) {
+                System.out.print(a[i] + " ");
+            }
+        }
+    }
+}
